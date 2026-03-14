@@ -12,15 +12,15 @@ export function DateRangePicker() {
   ];
 
   return (
-    <div className="flex bg-white border border-neutral-200 rounded-lg p-1 space-x-1">
+    <div className="flex bg-white border border-gray-200 rounded-[30px] p-1 space-x-1">
       {ranges.map((r) => (
         <button
           key={r.value}
           onClick={() => setRange(r.value)}
-          className={`px-3 py-1.5 text-sm font-medium rounded-md transition-all ${
-            range === r.value 
-              ? 'bg-blue-50 text-blue-700' 
-              : 'text-neutral-500 hover:text-neutral-900 hover:bg-neutral-50'
+          className={`px-4 py-1.5 text-sm font-medium rounded-[30px] transition-all ${
+            range === r.value
+              ? 'bg-blue-600 text-white'
+              : 'text-gray-400 hover:text-gray-500 hover:bg-gray-100'
           }`}
         >
           {r.label}

@@ -22,7 +22,7 @@ export function BanUserButton({ userId, isBanned = false }: BanUserButtonProps) 
 
   return (
     <Button 
-      variant={banned ? 'outline' : 'danger'} 
+      variant={banned ? 'outline-primary' : 'danger'} 
       onClick={handleToggleBan}
       disabled={loading}
     >

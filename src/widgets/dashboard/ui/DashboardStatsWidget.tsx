@@ -10,8 +10,8 @@ export async function DashboardStatsWidget() {
     <section className="space-y-6">
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
         <div>
-          <h1 className="text-2xl font-bold text-neutral-900">Ikhtisar Bisnis</h1>
-          <p className="text-sm text-neutral-500 mt-1">Pantau performa platform secara real-time.</p>
+          <h1 className="text-xl font-bold text-gray-500">Ikhtisar Bisnis</h1>
+          <p className="text-sm text-gray-400 mt-1">Pantau performa platform secara real-time.</p>
         </div>
         <DateRangePicker />
       </div>

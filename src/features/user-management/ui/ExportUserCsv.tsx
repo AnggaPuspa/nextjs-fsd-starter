@@ -9,7 +9,7 @@ export function ExportUserCsv() {
   };
 
   return (
-    <Button variant="outline" onClick={handleExport}>
+    <Button variant="outline-primary" onClick={handleExport}>
       Ekspor CSV
     </Button>
   );
